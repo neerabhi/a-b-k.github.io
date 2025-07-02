@@ -1,56 +1,39 @@
-body {
-  font-family: 'Segoe UI', sans-serif;
+body, html {
   margin: 0;
-  background: #f4f4f4;
-  color: #333;
-}
-
-header {
-  background: #222;
-  color: #fff;
-  text-align: center;
-  padding: 40px 0;
-}
-
-.profile-pic {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.container {
-  max-width: 800px;
-  margin: auto;
-}
-
-section {
-  padding: 40px 20px;
-  background: #fff;
-  margin: 20px auto;
-  max-width: 800px;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.skills-list {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
 }
 
-.skills-list li {
-  background: #007acc;
+.hero-section {
+  background: url('assets\IMG20221224002913.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
   color: white;
-  padding: 5px 10px;
-  border-radius: 5px;
+  position: relative;
 }
 
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #222;
-  color: #ccc;
+.text-content {
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  padding: 40px;
+  max-width: 40%;
+  margin-left: 5%;
+  border-radius: 10px;
+}
+
+.text-content h1 {
+  font-size: 48px;
+  margin: 0 0 20px 0;
+}
+
+.text-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.social-link img {
+  width: 32px;
+  margin-top: 20px;
+  filter: invert(1);
 }
